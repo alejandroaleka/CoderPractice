@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/img/modern-cpu-background-with-linear-style/472447-PGQJEW-695.jpg");
+  background-attachment: fixed;
+}
+
+.topMenu:hover {
+  color: rgb(150, 238, 238);
+  background-color: #55687a;
+}
