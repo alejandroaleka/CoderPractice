@@ -15,6 +15,10 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -60,7 +64,136 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div
+        class="d-flex titleBox rounded mx-auto justify-content-center animate__animated animate__fadeInDown"
+      >
+        <h1
+          class="H1text text-wrap text-center animate__animated animate__fadeInUp"
+        >
+          PRE-BUILDS
+        </h1>
+      </div>
+      <div class="container mb-5">
+        <div id="pcsCarousel" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#pcsCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#pcsCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#pcsCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#pcsCarousel"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="./option1.html">
+                <img
+                  src="../assets/img/options/Gaming1.jpeg"
+                  class="d-block w-100"
+                  alt="Gaming PC"
+                />
+              </a>
+              <div class="carousel-caption d-none d-md-block text-bg-secondary">
+                <h5>GAMING</h5>
+                <p>
+                  Selecciona esta opción si desea recomendaciones para armar
+                  este equipo.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="./option2.html">
+                <img
+                  src="../assets/img/options/Streaming1.jpeg"
+                  class="d-block w-100"
+                  alt="Streaming"
+                />
+              </a>
+              <div class="carousel-caption d-none d-md-block text-bg-secondary">
+                <h5>STREAMING</h5>
+                <p>
+                  Selecciona esta opción si desea recomendaciones para armar
+                  este equipo.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="./option3.html">
+                <img
+                  src="../assets/img/options/VR3.jpeg"
+                  class="d-block w-100"
+                  alt="PCVR"
+                />
+              </a>
+              <div class="carousel-caption d-none d-md-block text-bg-secondary">
+                <h5>VIRTUAL REALITY</h5>
+                <p>
+                  Selecciona esta opción si desea recomendaciones para armar
+                  este equipo.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="./option4.html">
+                <img
+                  src="../assets/img/options/nb1.jpeg"
+                  class="d-block w-100"
+                  alt="Notebooks"
+                />
+              </a>
+              <div class="carousel-caption d-none d-md-block text-bg-secondary">
+                <h5>NOTEBOOKS</h5>
+                <p>
+                  Selecciona esta opción si desea recomendaciones para armar
+                  este equipo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev bg-secondary opacity-50"
+            style="width: 5%"
+            type="button"
+            data-bs-target="#pcsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next bg-secondary opacity-50"
+            style="width: 5%"
+            type="button"
+            data-bs-target="#pcsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <br />
+    </main>
     <footer class="fixed-bottom">
       <div class="d-flex justify-content-between bg-light">
         <div class="copyright">
