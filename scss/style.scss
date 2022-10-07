@@ -1,0 +1,49 @@
+/* GLOBAL */
+
+$bgcolor: #eaf0f6;
+$brcolor: #b6c7d6;
+/* $h1font: ;
+$pfont: ;
+$descfont: ; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+body {
+    background-image: url("../assets/img/modern-cpu-background-with-linear-style/472447-PGQJEW-695.jpg");
+    background-attachment: fixed;
+}
+
+@mixin titleBox {
+    border-style: solid;
+    border-color: $brcolor;
+    background-color: $bgcolor;
+    height: fit-content;
+    width: fit-content;
+    margin: 2%;
+    padding: 5px;
+}
+
+@mixin title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vw;
+}
+
+@mixin btn-hover {
+    color: rgb(150, 238, 238);
+    background-color: #4c5d6e;
+}
+
+@import "hAndF";
+
+@import "index";
+
+@import "option";
+
+@import "optPicker";

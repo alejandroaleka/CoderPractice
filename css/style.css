@@ -1,67 +1,55 @@
-/* GLOBAL CONFIGURATIONS */
-
+/* GLOBAL */
+/* $h1font: ;
+$pfont: ;
+$descfont: ; */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  overflow-x: hidden; }
 
 body {
   background-image: url("../assets/img/modern-cpu-background-with-linear-style/472447-PGQJEW-695.jpg");
-  background-attachment: fixed;
-}
+  background-attachment: fixed; }
 
-.titleBox {
-  border-style: solid;
-  border-color: #b6c7d6;
-  background-color: #eaf0f6;
-  height: fit-content;
-  max-width: 800px;
-  margin: 2%;
-  padding: 5px;
-}
-
-.H1text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 5rem;
-}
-
-/* HEADER CONFIGURATIONS */
-
-.topMenu{
-  font-family: "Roboto", sans-serif;
-}
+/* HEADER */
+.topMenu {
+  font-family: "Roboto", sans-serif; }
 
 .topMenu:hover {
-  color: rgb(150, 238, 238);
-  background-color: #55687a;
-}
+  color: #96eeee;
+  background-color: #4c5d6e; }
 
-/* FOOTER CONFIGURATIONS */
-
+/* FOOTER */
 .copyright {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 38px;
-  margin: 5px;
-}
+  margin: 5px; }
 
 .socialBar .icon {
   width: 30px;
   height: auto;
-  margin: 5px;
-}
+  margin: 5px; }
 
-/* END GLOBAL CONFIGURATIONS */
+.titleBox {
+  border-style: solid;
+  border-color: #b6c7d6;
+  background-color: #eaf0f6;
+  height: fit-content;
+  width: fit-content;
+  margin: 2%;
+  padding: 5px; }
 
+.H1text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6vw; }
 
-/* INDEX CONFIGURATIONS */
-
-.startBtn{
+.startBtn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,57 +60,73 @@ body {
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
-  background-color: #e7e7e7;
+  background-color: #eaf0f6;
   color: black;
   padding: 20px 40px;
   text-align: center;
   border-style: groove;
   border-color: #b6c7d6;
-  border-radius: 5px;
-}
-
-.startBtn:hover {
-  color: rgb(150, 238, 238);
-  background-color: #4c5d6e;
-}
-
-
-/* PRE-BUILDS 1-4 CONFIGURATIONS */
+  border-radius: 5px; }
+  .startBtn:hover {
+    color: #96eeee;
+    background-color: #4c5d6e; }
 
 .textCol {
-  background-color: #e7e7e7cf;
-}
+  background-color: #e7e7e7cf; }
+  .textCol h1 {
+    font-family: "Radio Canada", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px; }
+  .textCol p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5rem;
+    padding-top: 10px; }
 
-.textCol h1 {
-  font-family: "Radio Canada", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 58px;
-}
-
-.textCol p {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5rem;
-  padding-top: 10px;
-}
-
-
-.box-img img{
-  border-radius: 25%;
-}
+.box-img img {
+  width: fit-content;
+  border-radius: 25%; }
 
 .box-info {
-  width: 50%;
-  margin: 0 auto;
+  width: fit-content;
   height: auto;
   background-color: #eaf0f6;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 38px;
-}
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 5px; }
+
+.col-pick {
+  background-color: #eaf0f6;
+  border-color: #b6c7d6;
+  border-style: solid; }
+  .col-pick img {
+    height: 40%;
+    width: auto;
+    border-radius: 50%; }
+  .col-pick h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vw;
+    font-size: 3vw; }
+  .col-pick p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5rem; }
+  .col-pick:hover {
+    color: #96eeee;
+    background-color: #4c5d6e; }
+
+a {
+  all: unset; }
+  a:hover {
+    all: unset; }

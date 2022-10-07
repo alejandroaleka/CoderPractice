@@ -1,0 +1,30 @@
+.col-pick {
+    background-color: $bgcolor;
+    border-color: $brcolor;
+    border-style: solid;
+    img {
+        height: 40%;
+        width: auto;
+        border-radius: 50%;
+    }
+    h2 {
+        @include title;
+        font-size: 3vw;
+    }
+    p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+    &:hover {
+        @include btn-hover;
+    }
+}
+a{
+    all: unset;
+    &:hover{
+        all: unset;
+    }
+}
