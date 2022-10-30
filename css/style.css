@@ -42,12 +42,17 @@ body {
   width: fit-content;
   margin: 2%;
   padding: 5px; }
+  .titleBox h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem; }
 
 .H1text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 6vw; }
+  font-size: 4rem; }
 
 .startBtn {
   display: flex;
@@ -58,7 +63,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 2rem;
   line-height: 42px;
   background-color: #eaf0f6;
   color: black;
@@ -77,19 +82,20 @@ body {
     font-family: "Radio Canada", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 58px; }
   .textCol p {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     padding-top: 10px; }
 
 .box-img img {
-  width: fit-content;
-  border-radius: 25%; }
+  height: auto;
+  width: 75%;
+  border-radius: 30%; }
 
 .box-info {
   width: fit-content;
@@ -98,29 +104,30 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   margin-bottom: 5px; }
 
 .col-pick {
   background-color: #eaf0f6;
   border-color: #b6c7d6;
-  border-style: solid; }
+  border-style: solid;
+  padding: 5px; }
   .col-pick img {
-    height: 40%;
-    width: auto;
+    height: auto;
+    width: 50%;
     border-radius: 50%; }
   .col-pick h2 {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 6vw;
-    font-size: 3vw; }
+    font-size: 4rem;
+    font-size: 1.5rem; }
   .col-pick p {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5rem; }
   .col-pick:hover {
     color: #96eeee;

@@ -1,25 +1,16 @@
-.titleBox {
-    @include titleBox
-}
-
-.H1text {
-    @include title
-}
-
-.startBtn{
+.sendBtn{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px auto;
+    margin: 5px auto;
     height: fit-content;
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 2rem;
-    line-height: 42px;
     background-color: $bgcolor;
     color: black;
-    padding: 20px 40px;
+    padding: 10px 20px;
     text-align: center;
     border-style: groove;
     border-color: $brcolor;
@@ -28,4 +19,3 @@
         @include btn-hover;
     }
   }
-  
